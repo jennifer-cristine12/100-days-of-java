@@ -28,7 +28,12 @@ public class IncrementDecrementView {
                 IDM.setMinutes(scan.nextInt());
                 IDC.Timer(IDM.getMinutes());
                 return "";
-
+            case 5:
+                System.out.println("escreva o numero e o multiplicador");
+                IDM.setNumMultiplicador(scan.nextInt());
+                IDM.setMultiplicador(scan.nextInt());
+                System.out.println("o resultado é: "+IDC.multiplicador(IDM.getNumMultiplicador(),IDM.getMultiplicador()));
+                return "";
             default:
                 System.err.println("opção invalida");
                 return "";
@@ -37,7 +42,7 @@ public class IncrementDecrementView {
 
     public void operar(Scanner scan) {
         System.out.println(
-                "qual é a operação desejada:\n1 : incrementar\n2 : decrementar\n3: cronometro\n4: temporizador\n5: multiplicador\n6: binario \n7:divisor");
+                "qual é a operação desejada:\n1 : incrementar\n2 : decrementar\n3: cronometro\n4: temporizador\n5: multiplicador\n6: binario \n7: divisor");
         System.out.println(opcoes(scan.nextInt()));
 
     }
