@@ -13,5 +13,5 @@ making mini projects using java every single day
  - Day 6
    - making an menu option for many purposes, using counpund assignment operators like
      - increment and decrement ++ and -- (timer and stopwatch)
-     -  
+     - adder, subtracter amd multiplier
 
