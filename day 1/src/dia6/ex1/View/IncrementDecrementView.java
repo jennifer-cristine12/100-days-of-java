@@ -34,6 +34,10 @@ public class IncrementDecrementView {
                 IDM.setMultiplicador(scan.nextInt());
                 System.out.println("o resultado é: "+IDC.multiplicador(IDM.getNumMultiplicador(),IDM.getMultiplicador()));
                 return "";
+            case 6:
+                System.out.println("Escreva o numero para ser convertido em binario");
+                IDM.setNumBinario(scan.nextInt());
+                return IDC.binario(IDM.getNumbinario());
             default:
                 System.err.println("opção invalida");
                 return "";

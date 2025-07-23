@@ -35,7 +35,7 @@ public class IncrementDecrementControl {
     }
 
     public int multiplicador(int num, int multiplicador) {
-        num *= multiplicador+1;
+        num *= multiplicador + 1;
         return num;
 
     }
@@ -65,6 +65,17 @@ public class IncrementDecrementControl {
             }
         }
 
+    }
+    public String binario(int num){
+        String resultado ="";
+        while(num>1){
+             resultado+=num%2;
+            num/=2;
+           // System.out.println(num);
+           
+        }
+           String reversed = new StringBuilder(resultado).reverse().toString();
+        return "1"+reversed;
     }
 
 }

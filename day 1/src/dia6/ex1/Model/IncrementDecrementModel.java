@@ -6,7 +6,8 @@ public class IncrementDecrementModel {
     private int minutes;
     private int multiplicador;
     private int numMultiplicador;
-
+    private int binario;
+    
     public void setNumIncrement(int numIncrement) {
         this.numIncrement = numIncrement;
     }
@@ -44,5 +45,11 @@ public class IncrementDecrementModel {
 
     public int getMultiplicador() {
         return multiplicador;
+    }
+    public void setNumBinario(int binario){
+        this.binario = binario;
+    }
+    public int getNumbinario(){
+        return binario;
     }
 }

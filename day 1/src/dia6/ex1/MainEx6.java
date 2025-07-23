@@ -7,9 +7,9 @@ import dia6.ex1.View.*;
 public class MainEx6 {
     public static void main(String args[]) {
         IncrementDecrementControl IDC = new IncrementDecrementControl();
-        
-      IncrementDecrementView IDV = new IncrementDecrementView();
-         IDV.operar(new Scanner(System.in));
-         
+        // System.out.println(IDC.binario(5));
+        IncrementDecrementView IDV = new IncrementDecrementView();
+        IDV.operar(new Scanner(System.in));
+
     }
 }
