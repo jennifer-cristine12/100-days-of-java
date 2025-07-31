@@ -14,4 +14,7 @@ making mini projects using java every single day
    - making an menu option for many purposes, using counpund assignment operators like
      - increment and decrement ++ and -- (timer and stopwatch)
      - adder, subtracter amd multiplier
-
+     - binary converter
+ - Day 7
+   -  conversion of values (string to int and int to string)
+     
