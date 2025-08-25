@@ -19,3 +19,5 @@ making mini projects using java every single day
    -  conversion of values (string to int and int to string)
  - Day 8
    -  using java.Math for functions  
+ - Day 9
+   - using if/else , return and arrays.sort 
