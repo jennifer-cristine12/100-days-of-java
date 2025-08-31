@@ -21,3 +21,7 @@ making mini projects using java every single day
    -  using java.Math for functions  
  - Day 9
    - using if/else , return and arrays.sort 
+ - Day 10
+   - using switch to determine a grade (a, b, c, d, f)
+ - Day 11
+   - using for, do while and while to show the sum of each number from 1 to n   
