@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "dia11.Main",
+            "projectName": "!00 days of code (in java)_4ce4e17b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "dia10.Main",
             "projectName": "!00 days of code (in java)_4ce4e17b"
         },
