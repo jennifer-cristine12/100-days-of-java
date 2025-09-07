@@ -1,5 +1,8 @@
 # 100-days-of-java
 making mini projects using java every single day
+
+## about each project
+these prjects were extracted from the website https://www.100daysofcode.io/learn/java , in this, there are differnt challenges from a simple "hello world" to making a full back end application using java
  - Day 1
    - writing a hello world using system.out.println
  - Day 2
@@ -24,4 +27,14 @@ making mini projects using java every single day
  - Day 10
    - using switch to determine a grade (a, b, c, d, f)
  - Day 11
-   - using for, do while and while to show the sum of each number from 1 to n   
+   - using for, do while and while to show the sum of each number from 1 to n
+ - Day 12
+   - check the size of a String
+   -  concatenate two Strings
+   -  check if one String is equal to another
+   -  convert the String to uppercase
+   -  remove unnecessary spaces from a String
+   -  extract a piece of a String
+   -  split a String into several words (similar to token generation done by Python)
+   -  invert a String
+   -  check if there is a String inside another
