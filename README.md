@@ -38,3 +38,5 @@ these prjects were extracted from the website https://www.100daysofcode.io/learn
    -  split a String into several words (similar to token generation done by Python)
    -  invert a String
    -  check if there is a String inside another
+ - Day 13
+   - create a string buffer and string builder with "hello" then append "world"
